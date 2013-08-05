@@ -7,4 +7,4 @@ mv .tmux.conf ~/
 mv .zshrc ~/
 cat id_rsa.pub >> ~/.ssh/authorized_keys
 rm -rf id_rsa.pub
-tmux &
+echo "Installation Complete. Please restart the terminal session!"
